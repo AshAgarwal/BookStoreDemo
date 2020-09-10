@@ -13,12 +13,12 @@ A CRUD Demo Project of Bookstore in Spring Boot, Hibernate, Data JPA, Thymeleaf 
 
 **2. Clone this repo.**
 
-**3. Create MySQL database**
+**3. Create PostgreSQL database**
 ```bash
 CREATE DATABASE BookStoreDemo
 ```
 
-**4. Change MySQL username and password as per your installation**
+**4. Change PostgreSQL username and password as per your installation**
 + open `src/main/resources/application.properties`
 + change `connection URL`, `username` and `password` as per your PostgreSQL configuration.
 
