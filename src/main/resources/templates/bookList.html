@@ -39,7 +39,7 @@
 		<tbody>
 			<tr th:each="tempBook : ${bookList}">
 				
-				<td><a th:href="@{/book/bookInfo(isbn=${tempBook.isbn})}"><span th:text="${tempBook.isbn}"></span></a></td>	
+				<td><a th:href="@{/book/bookInfo?isbn=}+${tempBook.isbn}"><span th:text="${tempBook.isbn}"></span></a></td>	
 				<td th:text="${tempBook.title}" />	
 				<td th:text="${tempBook.price}" />
 				<td th:text="${tempBook.stock}" />

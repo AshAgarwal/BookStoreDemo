@@ -20,7 +20,7 @@
 			
 			<div class="form-group">
 				<label for="isbn">ISBN:</label>
-				<span style="color: red;" th:if="${isbnExists}">ISBN already exists.</span>
+				<span style="color: red; font-weight:bold;" th:if="${isbnExists}">ISBN already exists.</span>
 				<input type="text" th:field="*{isbn}" id="isbn" class="form-control mb-4 col-4"
 					 placeholder="Enter ISBN" required/>
 			</div>
