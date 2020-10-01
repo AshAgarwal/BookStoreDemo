@@ -4,12 +4,12 @@ A CRUD Demo Project of Bookstore in Spring Boot, Hibernate, Data JPA, Thymeleaf 
 ## Requirements
 1. JDK 1.8
 2. PostgreSQL
-3. Spring Tool Suite 4 
+3. Spring Tool Suite 4 OR Eclipse IDE
 
 
 ## Steps to Setup
 
-**1. First setup JDK8, PostgreSQL & STS4 if you don't have.**
+**1. First setup JDK8, PostgreSQL & STS4/Eclipse if you don't have.**
 
 **2. Clone this repo.**
 
